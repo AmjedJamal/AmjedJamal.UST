@@ -5,6 +5,15 @@
   <title>Amjed Jamal | Portfolio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
+    .profile-img {
+    width: 120px;       /* حجم الصورة */
+    height: 120px;      /* نفس الطول والعرض عشان تكون دائرية */
+    border-radius: 50%; /* يخلي الصورة دائرية */
+    object-fit: cover;  /* لتغطية الإطار بدون تشويه الصورة */
+    border: 3px solid #ffffff; /* إطار أبيض حول الصورة */
+    display: block;
+    margin: 0 auto 15px; /* يوسّط الصورة ويضيف مسافة تحتها */
+    }
     body {
       margin: 0;
       font-family: Arial, sans-serif;
@@ -86,6 +95,7 @@
 <body>
 
 <header>
+  <img src="https://i.ibb.co/Jj930wTk/241145293.jpg" alt="Amjed Jamal" class="profile-img">  
   <h1>Amjed Jamal</h1>
   <p>طالب تقنية معلومات | IT Student</p>
 </header>
